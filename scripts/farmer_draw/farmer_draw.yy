@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Scripts",
-    "path": "folders/Objects/Farmer/Scripts.yy",
+    "path": "folders/Engine/Entities/Farmer/Scripts.yy",
   },
 }

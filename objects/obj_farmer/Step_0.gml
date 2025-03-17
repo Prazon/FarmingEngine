@@ -5,3 +5,5 @@
 event_inherited();
 
 handle_input();
+apply_movement();
+update_animation();

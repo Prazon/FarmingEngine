@@ -35,6 +35,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Farmer",
-    "path": "folders/Objects/Farmer.yy",
+    "path": "folders/Engine/Entities/Farmer.yy",
   },
 }

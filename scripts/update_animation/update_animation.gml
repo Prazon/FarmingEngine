@@ -9,27 +9,17 @@ function update_animation()
             _Sprite = _IsMoving ? spr_farmer_walk_down : spr_farmer_idle_down;
             break;
         case 1: // Right
-            _Sprite = _IsMoving ? spr_farmer_walk_right : spr_farmer_idle_right;
+            _Sprite = _IsMoving ? spr_farmer_walk_side : spr_farmer_idle_side;
             break;
         case 2: // Up
             _Sprite = _IsMoving ? spr_farmer_walk_up : spr_farmer_idle_up;
             break;
         case 3: // Left
-            _Sprite = _IsMoving ? spr_farmer_walk_left : spr_farmer_idle_left;
+            _Sprite = _IsMoving ? spr_farmer_walk_side : spr_farmer_idle_side;
             break;
     }
     
     // Update active sprite
     sprite_index = _Sprite;
     
-    // Handle farming animation
-    if (_IsFarming)
-	{
-        _FarmingTimer--;
-        if (_FarmingTimer <= 0)
-		{
-            _IsFarming = false;
-            FinishFarming();
-        }
-    }
 }

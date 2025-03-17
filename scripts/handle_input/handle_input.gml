@@ -48,22 +48,4 @@ function handle_input()
         SelectedSlot = (SelectedSlot - 1 + InventorySize) % InventorySize;
         HeldItem = Inventory[# 0, SelectedSlot];
     }
-    
-    // Handle interaction
-    if (_KeyInteract && _CanInteract)
-	{
-        UseCurrentTool();
-        _CanInteract = false;
-        _InteractCooldown = _InteractCooldownMax;
-    }
-    
-    // Interaction cooldown
-    if (!_CanInteract)
-	{
-        _InteractCooldown--;
-        if (_InteractCooldown <= 0)
-		{
-            _CanInteract = true;
-        }
-    }
 }
