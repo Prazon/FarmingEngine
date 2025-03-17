@@ -20,9 +20,9 @@ if (Target != noone) {
     x = lerp(x, TargetX, FollowSpeed);
     y = lerp(y, TargetY, FollowSpeed);
     
-    // Calculate the camera's view position
-    var _ViewX = x - (ViewWidth / 2);
-    var _ViewY = y - (ViewHeight / 2);
+   // Calculate the camera's view position and round to nearest integer
+    var _ViewX = floor(x - ViewWidthHalf);
+    var _ViewY = floor(y - ViewHeightHalf);
     
     // Keep camera within room boundaries if enabled
     if (BoundCamera) {

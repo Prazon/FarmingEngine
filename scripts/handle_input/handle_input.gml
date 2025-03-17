@@ -48,4 +48,6 @@ function handle_input()
         SelectedSlot = (SelectedSlot - 1 + InventorySize) % InventorySize;
         HeldItem = Inventory[# 0, SelectedSlot];
     }
+	
+	
 }

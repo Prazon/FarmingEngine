@@ -18,6 +18,7 @@
     {"id":{"name":"farmer_draw","path":"scripts/farmer_draw/farmer_draw.yy",},"order":0,},
     {"id":{"name":"spr_farmer_walk_up","path":"sprites/spr_farmer_walk_up/spr_farmer_walk_up.yy",},"order":0,},
     {"id":{"name":"inventory_add_item","path":"scripts/inventory_add_item/inventory_add_item.yy",},"order":1,},
+    {"id":{"name":"enums","path":"scripts/enums/enums.yy",},"order":11,},
     {"id":{"name":"spr_farmer_idle_side","path":"sprites/spr_farmer_idle_side/spr_farmer_idle_side.yy",},"order":1,},
     {"id":{"name":"update_animation","path":"scripts/update_animation/update_animation.yy",},"order":0,},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"order":2,},

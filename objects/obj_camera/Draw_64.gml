@@ -7,11 +7,7 @@ if (variable_global_exists("DebugMode") && global.DebugMode) {
     draw_set_color(c_yellow);
     draw_set_halign(fa_right);
     draw_set_valign(fa_bottom);
-    
-    // Draw zoom percentage
-    var _ZoomPercent = round(CurrentZoom * 100);
-    draw_text(display_get_gui_width() - 10, display_get_gui_height() - 40, "Zoom: " + string(_ZoomPercent) + "%");
-    
+     
     // Draw camera position
     var _CamX = camera_get_view_x(CameraID);
     var _CamY = camera_get_view_y(CameraID);

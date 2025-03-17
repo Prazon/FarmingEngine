@@ -39,7 +39,7 @@ if (global.CurrentTime >= global.DayLength) {
         }
     }
     
-    // Call day change events
+    // Call day change eventssssssssssssssssssssssssssssssssssssssssssss
     event_perform(ev_other, ev_user0);
 }
 
